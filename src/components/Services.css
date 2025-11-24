@@ -1,0 +1,181 @@
+.services {
+    position: relative;
+    background: var(--color-bg-secondary);
+    overflow: hidden;
+    padding-top: var(--space-xl);
+    /* Reduced top padding */
+    padding-bottom: var(--space-xl);
+}
+
+.services::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+}
+
+.section-header {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto var(--space-xl);
+    /* Reduced margin */
+}
+
+.section-title {
+    margin-bottom: var(--space-sm);
+    /* Reduced margin */
+    background: linear-gradient(to right, #fff, #94a3b8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.section-subtitle {
+    font-size: var(--font-size-base);
+    /* Reduced font size slightly */
+    color: var(--color-text-secondary);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    /* Smaller min-width */
+    gap: var(--space-lg);
+    /* Reduced gap from xl to lg */
+    padding: var(--space-sm);
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-card {
+    padding: var(--space-lg);
+    /* Reduced padding inside card */
+    border-radius: var(--radius-lg);
+    transition: all var(--transition-base);
+    position: relative;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+}
+
+.service-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at top right, rgba(59, 130, 246, 0.1), transparent 60%);
+    opacity: 0;
+    transition: opacity var(--transition-base);
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    /* Reduced lift */
+    border-color: rgba(59, 130, 246, 0.3);
+    box-shadow: var(--shadow-lg), 0 0 20px rgba(59, 130, 246, 0.1);
+}
+
+.service-card:hover::before {
+    opacity: 1;
+}
+
+.service-icon-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: var(--radius-md);
+    background: rgba(59, 130, 246, 0.1);
+    margin-bottom: var(--space-md);
+    color: var(--color-accent-blue);
+    transition: all var(--transition-base);
+}
+
+.service-card:hover .service-icon-wrapper {
+    background: var(--color-accent-blue);
+    color: white;
+    transform: scale(1.1) rotate(5deg);
+}
+
+.service-title {
+    font-size: var(--font-size-xl);
+    /* Reduced font size */
+    margin-bottom: var(--space-sm);
+    color: var(--color-text-primary);
+    font-weight: 700;
+}
+
+.service-description {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-md);
+    line-height: 1.6;
+    font-size: var(--font-size-sm);
+    /* Reduced font size */
+    flex-grow: 1;
+}
+
+.service-features {
+    list-style: none;
+    margin-bottom: var(--space-lg);
+    padding: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    padding-top: var(--space-md);
+}
+
+.service-features li {
+    display: flex;
+    align-items: center;
+    /* Changed to center for better alignment with icons */
+    gap: var(--space-sm);
+    color: var(--color-text-muted);
+    margin-bottom: var(--space-xs);
+    /* Reduced margin */
+    font-size: var(--font-size-sm);
+    transition: color var(--transition-fast);
+}
+
+.service-card:hover .service-features li {
+    color: var(--color-text-secondary);
+}
+
+.feature-check {
+    color: var(--color-accent-gold);
+    flex-shrink: 0;
+}
+
+.service-btn {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--color-text-primary);
+    margin-top: auto;
+    /* Push to bottom */
+}
+
+.service-btn:hover {
+    background: var(--color-accent-blue);
+    border-color: var(--color-accent-blue);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: var(--space-md);
+    }
+
+    .service-card {
+        padding: var(--space-md);
+    }
+}
