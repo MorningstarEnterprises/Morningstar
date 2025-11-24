@@ -19,7 +19,7 @@ const CallToAction = () => {
                 <div className="cta-content glass">
                     <div className="cta-badge">
                         <Calendar size={16} />
-                        <span>⚡ URGENT: Offer Ends December 30th, 2024</span>
+                        <span>⚡ URGENT: Offer Ends December 30th, 2025</span>
                     </div>
 
                     <h2 className="cta-title">
@@ -27,9 +27,9 @@ const CallToAction = () => {
                         <span className="text-gold">Only 2,000 KShs!</span>
                     </h2>
                     <p className="cta-subtitle">
-                        🔥 <strong>Limited Time Only!</strong> Get lifetime access to expert mentorship,
-                        free seasonal classes, and proven strategies for just 2,000 KShs.
-                        This exclusive offer expires on <strong>December 30th, 2024</strong> - Don't miss out!
+                        🔥 <strong>Limited Time Only!</strong> Get lifetime access to expert mentorship, 
+                        free seasonal classes, and proven strategies for just 2,000 KShs. 
+                        This exclusive offer expires on <strong>December 30th, 2025</strong> - Don't miss out!
                     </p>
 
                     <div className="cta-offer-box">
@@ -80,7 +80,7 @@ const CallToAction = () => {
 
                     <p className="cta-countdown">
                         <Zap size={16} />
-                        <span>⏰ <strong>ONLY 6 DAYS LEFT!</strong> This special 2,000 KShs offer expires on <strong>December 30th, 2024</strong>. After that, prices return to normal. Secure your spot today!</span>
+                        <span>⏰ This special 2,000 KShs offer expires on <strong>December 30th, 2025</strong>. After that, prices return to normal. Secure your spot today!</span>
                     </p>
                 </div>
             </div>
