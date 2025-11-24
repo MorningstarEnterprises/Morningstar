@@ -52,7 +52,7 @@ const Header = () => {
             className="btn btn-primary cta-button"
             onClick={() => window.open('https://www.hfm.com/ke/en/?refid=30448802', '_blank')}
           >
-            Open HFM Trading Account
+            HFM Account
           </button>
         </nav>
       </div>

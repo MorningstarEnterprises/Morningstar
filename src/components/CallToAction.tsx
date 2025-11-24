@@ -19,21 +19,24 @@ const CallToAction = () => {
                 <div className="cta-content glass">
                     <div className="cta-badge">
                         <Calendar size={16} />
-                        <span>Limited Time Offer - Ends December 20th</span>
+                        <span>⚡ URGENT: Offer Ends December 30th, 2024</span>
                     </div>
 
-                    <h2 className="cta-title">Get Lifetime Mentorship for Only 2,000 KShs!</h2>
+                    <h2 className="cta-title">
+                        Lifetime Mentorship<br />
+                        <span className="text-gold">Only 2,000 KShs!</span>
+                    </h2>
                     <p className="cta-subtitle">
-                        Join our elite trading community and get lifetime access to expert mentorship,
-                        free seasonal classes, and proven strategies that have helped 92% of our traders succeed.
-                        This special offer won't last long!
+                        🔥 <strong>Limited Time Only!</strong> Get lifetime access to expert mentorship,
+                        free seasonal classes, and proven strategies for just 2,000 KShs.
+                        This exclusive offer expires on <strong>December 30th, 2024</strong> - Don't miss out!
                     </p>
 
                     <div className="cta-offer-box">
                         <div className="offer-price">
                             <span className="price-label">One-Time Payment</span>
                             <span className="price-amount">2,000 KShs</span>
-                            <span className="price-note">Lifetime Access</span>
+                            <span className="price-note">Lifetime Access • Ends Dec 30</span>
                         </div>
                     </div>
 
@@ -77,7 +80,7 @@ const CallToAction = () => {
 
                     <p className="cta-countdown">
                         <Zap size={16} />
-                        <span>⏰ Offer ends in <strong>December 20th, 2024</strong> - Don't miss out!</span>
+                        <span>⏰ <strong>ONLY 6 DAYS LEFT!</strong> This special 2,000 KShs offer expires on <strong>December 30th, 2024</strong>. After that, prices return to normal. Secure your spot today!</span>
                     </p>
                 </div>
             </div>

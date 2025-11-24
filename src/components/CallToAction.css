@@ -58,12 +58,13 @@
 .cta-title {
     font-size: var(--font-size-3xl);
     margin-bottom: var(--space-md);
-    background: linear-gradient(to right, #fff, var(--color-accent-gold));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    color: var(--color-text-primary);
     line-height: 1.2;
     font-weight: 800;
+}
+
+.cta-title .text-gold {
+    color: var(--color-accent-gold);
 }
 
 .cta-subtitle {
@@ -77,8 +78,8 @@
 }
 
 .cta-offer-box {
-    background: linear-gradient(135deg, rgba(0, 220, 130, 0.1), rgba(59, 130, 246, 0.1));
-    border: 2px solid rgba(0, 220, 130, 0.3);
+    background: linear-gradient(135deg, rgba(251, 191, 36, 0.1), rgba(59, 130, 246, 0.1));
+    border: 2px solid rgba(251, 191, 36, 0.3);
     border-radius: var(--radius-lg);
     padding: var(--space-lg);
     margin-bottom: var(--space-lg);

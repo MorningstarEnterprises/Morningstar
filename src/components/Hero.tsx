@@ -22,7 +22,7 @@ const Hero = () => {
                     <div className="hero-copy">
 
                         <h1 className="hero-title animate-fadeInUp">
-                            Stop Gambling. Start <span className="text-gradient">Mastering</span> Forex.
+                            Stop Gambling <span className="text-gradient">Start Mastering Forex</span>
                         </h1>
                         <p className="hero-subtitle animate-fadeInUp">
                             If you're tired of inconsistent results and emotional trading, this is for you.
