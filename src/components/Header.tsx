@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Star } from 'lucide-react';
 import './Header.css';
 
 const Header = () => {
@@ -28,7 +27,7 @@ const Header = () => {
       <div className="container">
         <nav className="nav">
           <div className="logo">
-            <Star className="logo-icon" size={24} />
+            <img src="/favicon.png" alt="Morningstar" className="logo-icon" />
             <span className="logo-text">Morningstar</span>
           </div>
 
@@ -45,7 +44,6 @@ const Header = () => {
           <ul className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
             <li><a onClick={() => scrollToSection('home')}>Home</a></li>
             <li><a onClick={() => scrollToSection('services')}>Services</a></li>
-            <li><a onClick={() => scrollToSection('materials')}>Study Materials</a></li>
             <li><a onClick={() => scrollToSection('free-classes')}>Classes</a></li>
             <li><a onClick={() => scrollToSection('contact')}>Contact</a></li>
           </ul>

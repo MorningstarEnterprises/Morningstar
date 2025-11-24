@@ -39,8 +39,9 @@
 }
 
 .logo-icon {
-    font-size: var(--font-size-2xl);
-    animation: pulse 2s ease-in-out infinite;
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
 }
 
 .logo-text {
@@ -82,8 +83,8 @@
 }
 
 .nav-links li a:hover {
-    color: var(--color-bg-primary);
-    background: rgba(248, 250, 252, 0.12);
+    color: var(--color-text-primary);
+    background: rgba(0, 220, 130, 0.1);
 }
 
 .nav-links li a:hover::after {
