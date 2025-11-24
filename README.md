@@ -1,73 +1,126 @@
-# React + TypeScript + Vite
+# Morningstar Forex Trading Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, professional forex trading website built with React, TypeScript, and Vite.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Lifetime Mentorship Program** - One-time payment of 2,000 KShs
+- **Free Seasonal Classes** - Limited spots available
+- **Live Trading Sessions** - Expert-led trading sessions
+- **Trading Signals** - Accurate market signals
+- **HFM Broker Partnership** - Exclusive benefits
+- **92% Success Rate** - Proven systematic approach
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React 19** - UI Framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Lucide React** - Icons
+- **CSS3** - Styling with custom design system
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+```bash
+# Install dependencies
+npm install
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# Run development server
+npm run dev
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Build for production
+npm run build
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+# Preview production build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 🌐 Deploy to Vercel
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Option 1: Deploy via Vercel CLI
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Install Vercel CLI globally
+npm i -g vercel
+
+# Deploy to Vercel
+vercel
 ```
+
+### Option 2: Deploy via Vercel Dashboard
+
+1. Push your code to GitHub
+2. Go to [vercel.com](https://vercel.com)
+3. Click "New Project"
+4. Import your GitHub repository
+5. Vercel will auto-detect Vite and configure settings
+6. Click "Deploy"
+
+### Option 3: Deploy via Git
+
+```bash
+# Add and commit all changes
+git add .
+git commit -m "Ready for deployment"
+git push origin main
+
+# Connect your repo to Vercel and it will auto-deploy
+```
+
+## 🔧 Environment Variables
+
+No environment variables are required for this project. All configurations are handled in the code.
+
+## 📱 Contact
+
+- **WhatsApp**: +254 769 879 268
+- **Website**: [Your Vercel URL]
+
+## 📄 License
+
+© 2024 Morningstar Forex Trading. All rights reserved.
+
+## 🎨 Design System
+
+The website uses a custom "Midnight Neon" design system with:
+- Emerald green (#00dc82) and bright blue (#3b82f6) accents
+- Dark navy background (#020410)
+- Glassmorphism effects
+- Smooth animations and transitions
+
+## 🏗️ Project Structure
+
+```
+morningstar/
+├── public/
+│   └── favicon.png
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Services.tsx
+│   │   ├── FreeClasses.tsx
+│   │   ├── Testimonials.tsx
+│   │   ├── FAQ.tsx
+│   │   ├── CallToAction.tsx
+│   │   ├── Footer.tsx
+│   │   ├── WhatsAppButton.tsx
+│   │   └── PreQualifierModal.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── index.html
+├── vercel.json
+└── package.json
+```
+
+## 🚀 Performance
+
+- Optimized for fast loading
+- Responsive design for all devices
+- SEO-friendly structure
+- Accessible components
+
+---
+
+Built with ❤️ for Morningstar Forex Trading
