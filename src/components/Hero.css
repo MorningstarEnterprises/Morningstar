@@ -312,4 +312,9 @@
     .btn-large {
         width: 100%;
     }
+
+    .hero-panel-cta {
+        padding-left: var(--space-lg);
+        padding-right: var(--space-lg);
+    }
 }

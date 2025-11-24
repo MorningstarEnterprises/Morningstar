@@ -129,11 +129,15 @@
 
     .cta-button {
         display: inline-flex;
+        flex-direction: column;
         order: 3;
-        padding: 0.5rem 1rem;
-        font-size: var(--font-size-xs);
-        white-space: nowrap;
-        margin-left: var(--space-sm);
+        padding: 0.35rem 0.6rem;
+        font-size: 0.65rem;
+        white-space: normal;
+        margin-left: var(--space-xs);
+        line-height: 1.2;
+        text-align: center;
+        min-width: 50px;
     }
 
     .nav-links {

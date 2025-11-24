@@ -34,7 +34,7 @@ const FreeClasses = () => {
                 <div className="section-header">
                     <div className="free-badge">
                         <Calendar size={16} />
-                        <span>Limited Seasonal Offering</span>
+                        <span>Seasonal Free Classes</span>
                     </div>
                     <h2 className="section-title">
                         Join Our <span className="text-gradient">Free Trading Classes</span>
