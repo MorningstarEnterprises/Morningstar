@@ -4,7 +4,7 @@ A modern, professional forex trading website built with React, TypeScript, and V
 
 ## 🚀 Features
 
-- **Lifetime Mentorship Program** - One-time payment of 2,000 KShs
+- **Lifetime Mentorship Program** - One-time payment of 6,000 KShs
 - **Free Seasonal Classes** - Limited spots available
 - **Live Trading Sessions** - Expert-led trading sessions
 - **Trading Signals** - Accurate market signals

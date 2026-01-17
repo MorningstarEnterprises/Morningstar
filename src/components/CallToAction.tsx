@@ -7,7 +7,7 @@ const CallToAction = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
 
     const handleModalSubmit = (answers: { question1: string; question2: string }) => {
-        const message = `Hi, I want to join the Lifetime Mentorship Program (KShs 2,000 offer).\\n\\nExperience Level: ${answers.question1}\\nPrimary Goal: ${answers.question2}\\n\\nPlease confirm my enrollment.`;
+        const message = `Hi, I want to join the Lifetime Mentorship Program (KShs 6,000 offer).\\n\\nExperience Level: ${answers.question1}\\nPrimary Goal: ${answers.question2}\\n\\nPlease confirm my enrollment.`;
 
         window.open(`https://wa.me/254769879268?text=${encodeURIComponent(message)}`, '_blank');
         setIsModalOpen(false);
@@ -19,24 +19,24 @@ const CallToAction = () => {
                 <div className="cta-content glass">
                     <div className="cta-badge">
                         <Calendar size={16} />
-                        <span>⚡ URGENT: Offer Ends December 30th, 2025</span>
+                        <span>⚡ URGENT: Offer Ends March 30th, 2026</span>
                     </div>
 
                     <h2 className="cta-title">
                         Lifetime Mentorship<br />
-                        <span className="text-gold">Only KShs 2,000!</span>
+                        <span className="text-gold">Only KShs 6,000!</span>
                     </h2>
                     <p className="cta-subtitle">
                         🔥 <strong>Limited Time Only!</strong> Get lifetime access to expert mentorship,
-                        free seasonal classes, and proven strategies for just KShs 2,000.
-                        This exclusive offer expires on <strong>December 30th, 2025</strong> - Don't miss out!
+                        free seasonal classes, and proven strategies for just KShs 6,000.
+                        This exclusive offer expires on <strong>March 30th, 2026</strong> - Don't miss out!
                     </p>
 
                     <div className="cta-offer-box">
                         <div className="offer-price">
                             <span className="price-label">One-Time Payment</span>
-                            <span className="price-amount">KShs 2,000</span>
-                            <span className="price-note">Lifetime Access • Ends Dec 30</span>
+                            <span className="price-amount">KShs 6,000</span>
+                            <span className="price-note">Lifetime Access • EndsMarch 30th</span>
                         </div>
                     </div>
 
@@ -80,7 +80,7 @@ const CallToAction = () => {
 
                     <p className="cta-countdown">
                         <Zap size={16} />
-                        <span>⏰ This special KShs 2,000 offer expires on <strong>December 30th, 2025</strong>. After that, prices return to normal. Secure your spot today!</span>
+                        <span>⏰ This special KShs 6,000 offer expires on <strong>March 30th, 2026</strong>. After that, prices return to normal. Secure your spot today!</span>
                     </p>
                 </div>
             </div>
